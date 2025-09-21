@@ -1,12 +1,16 @@
 {
-  "path": "Path",
-  "password": "Password",
-  "write": "Write",
-  "hide": "Hide",
-  "readme": "Readme",
-  "readme_help": "Render a markdown at the bottom, support content or link",
-  "header": "Header",
-  "header_help": "Render a markdown at the top, support content or link",
-  "apply_sub": "Apply to sub folder",
-  "hide_help": "One regular expression per line"
+  "metas": "元数据",
+  "meta_name": "元数据名称",
+  "meta_value": "元数据值",
+  "meta_type": "元数据类型",
+  "meta_description": "描述",
+  "add_meta": "添加元数据",
+  "edit_meta": "编辑元数据",
+  "delete_meta": "删除元数据",
+  "meta_empty": "暂无元数据",
+  "meta_loading": "正在加载元数据...",
+  "meta_error": "加载元数据失败",
+  "meta_success": "元数据操作成功",
+  "meta_failed": "元数据操作失败",
+  "meta_required": "元数据为必填项"
 }

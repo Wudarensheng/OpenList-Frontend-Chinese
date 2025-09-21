@@ -1,38 +1,24 @@
 {
-  "expires": "Expire time",
-  "id": "ID",
-  "accessed": "Access count",
-  "max_accessed": "Max access count",
-  "pwd": "Share code",
-  "files": "Share Paths",
-  "files_etc": " and {{more}} more",
-  "creator": "Creator",
-  "status": "Status",
-  "status_list": {
-    "disabled": "Disabled",
-    "invalid": "Invalid",
-    "work": "Work",
-    "denied": "No permission"
-  },
-  "remark": "Remark",
-  "readme": "Custom readme",
-  "header": "Custom header",
-  "order_by": "Order by",
-  "order_bys": {
-    "name": "Name",
-    "size": "Size",
-    "modified": "Modified"
-  },
-  "order_direction": "Order direction",
-  "order_directions": {
-    "asc": "Ascending",
-    "desc": "Descending"
-  },
-  "extract_folder": "Extract folder",
-  "extract_folders": {
-    "front": "Extract to front",
-    "back": "Extract to back"
-  },
-  "input_password": "Please input share code",
-  "copy_msg": "Copy link"
+  "shares": "分享",
+  "share_name": "分享名称",
+  "share_url": "分享链接",
+  "share_password": "分享密码",
+  "share_expires": "过期时间",
+  "share_created": "创建时间",
+  "share_status": "状态",
+  "share_actions": "操作",
+  "add_share": "添加分享",
+  "edit_share": "编辑分享",
+  "delete_share": "删除分享",
+  "copy_share": "复制分享链接",
+  "share_empty": "暂无分享",
+  "share_loading": "正在加载分享...",
+  "share_error": "加载分享失败",
+  "share_success": "分享操作成功",
+  "share_failed": "分享操作失败",
+  "share_active": "活跃",
+  "share_expired": "已过期",
+  "share_disabled": "已禁用",
+  "share_public": "公开",
+  "share_private": "私有"
 }
