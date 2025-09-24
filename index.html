@@ -41,6 +41,17 @@
         min-height: 100vh;
         min-width: 100vw;
       }
+      button {
+  background: rgba(255, 255, 255, 0.3); /* 半透明背景 */
+  border: 2px solid #888;               /* 添加灰色边框 */
+  color: #222;                          /* 按钮文字颜色，可按需调整 */
+  backdrop-filter: blur(2px);           /* 增加磨砂效果，可选 */
+  transition: background 0.2s, border 0.2s;
+}
+button:hover, button:focus {
+  background: rgba(255, 255, 255, 0.5);
+  border: 2px solid #444;
+}
     </style>
   </head>
   <body>
