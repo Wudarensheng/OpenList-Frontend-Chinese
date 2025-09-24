@@ -83,20 +83,21 @@ button:hover, button:focus {
       .hope-breadcrumb__link[aria-current="page"] {
         color: #1276c2;
       }
-      .hope-stack {
-        background: transparent !important;
-        box-shadow: none !important;
+            /* header stack 半透明浅蓝色，但不影响svg */
+      .hope-stack.header-bar,
+      .hope-stack.header-bar *:not(svg):not(path):not(circle):not(rect):not(line):not(ellipse):not(polygon):not(polyline):not(g) {
+        background: rgba(100, 180, 255, 0.3) !important;
+        border-radius: 8px;
+        border: 1px solid rgba(100, 180, 255, 0.5);
       }
-      .header-left,
-      .header-right {
-        background: transparent !important;
-        box-shadow: none !important;
-      }
-      /* 保持svg图像正常显示，不透明 */
-      .header-left img,
-      .header-right svg {
-        opacity: 1 !important;
-        background: none !important;
+      .hope-stack.header-bar {
+        padding: 6px 16px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: fit-content;
+        max-width: 100%;
       }
     </style>
   </head>
