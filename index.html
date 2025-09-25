@@ -115,9 +115,13 @@
         color: inherit;
         border: none;
       }
-      /* 隐藏 breadcrumb 导航栏 */
-      nav.hope-breadcrumb {
-        display: none !important;
+      /* 完全透明 breadcrumb 背景，不影响其中图片/文字 */
+      .hope-breadcrumb,
+      .hope-breadcrumb__list,
+      .hope-breadcrumb__item {
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
       }
     </style>
   </head>
