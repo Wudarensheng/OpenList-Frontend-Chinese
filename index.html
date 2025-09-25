@@ -115,13 +115,34 @@
         color: inherit;
         border: none;
       }
-      /* 完全透明 breadcrumb 背景，不影响其中图片/文字 */
-      .hope-breadcrumb,
-      .hope-breadcrumb__list,
-      .hope-breadcrumb__item {
+          /* 使 nav 完全透明，不影响内部内容 */
+      nav.nav.hope-breadcrumb {
         background: transparent !important;
         box-shadow: none !important;
         border: none !important;
+      }
+      /* 使面包屑列表也完全透明，但内容仍可见 */
+      .hope-breadcrumb__list {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+      }
+      /* 给图片和文字加半透明灰色边框 */
+      .hope-breadcrumb__list img,
+      .hope-breadcrumb__list p,
+      .hope-breadcrumb__list span,
+      .hope-breadcrumb__list a {
+        border: 1.5px solid rgba(120,120,120,0.3);
+        border-radius: 6px;
+        background: transparent !important;
+        padding: 2px 8px;
+        margin: 0 2px;
+        box-sizing: border-box;
+        transition: border-color 0.2s;
       }
     </style>
   </head>
