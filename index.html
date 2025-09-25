@@ -42,53 +42,53 @@
         min-width: 100vw;
       }
       button {
-  background: rgba(255, 255, 255, 0.3); /* 半透明背景 */
-  border: 2px solid #888;               /* 添加灰色边框 */
-  color: #222;                          /* 按钮文字颜色，可按需调整 */
-  backdrop-filter: blur(2px);           /* 增加磨砂效果，可选 */
-  transition: background 0.2s, border 0.2s;
-}
-button:hover, button:focus {
-  background: rgba(255, 255, 255, 0.5);
-  border: 2px solid #444;
-}
+        background: rgba(255, 255, 255, 0.3); /* 半透明背景 */
+        border: 2px solid #888;               /* 添加灰色边框 */
+        color: #222;                          /* 按钮文字颜色，可按需调整 */
+        backdrop-filter: blur(2px);           /* 增加磨砂效果，可选 */
+        transition: background 0.2s, border 0.2s;
+      }
+      button:hover, button:focus {
+        background: rgba(255, 255, 255, 0.5);
+        border: 2px solid #444;
+      }
       a.hope-anchor {
-        background: rgba(100, 180, 255, 0.3);
-        color: #205080;
+        background: rgba(240, 240, 240, 0.8); /* 淡灰色 */
+        color: #444;
         border-radius: 6px;
         padding: 2px 8px;
         transition: background 0.2s, color 0.2s, border-color 0.2s;
-        border: 1px solid rgba(100, 180, 255, 0.5);
+        border: 1px solid rgba(220, 220, 220, 0.9);
         text-decoration: none;
       }
       a.hope-anchor:hover, a.hope-anchor:focus {
-        background: rgba(100, 180, 255, 0.5);
-        color: #1276c2;
-        border-color: #1276c2;
+        background: rgba(220, 220, 220, 1);
+        color: #222;
+        border-color: #b0b0b0;
       }
       .hope-breadcrumb__list {
-        background: rgba(100, 180, 255, 0.3);
+        background: rgba(240, 240, 240, 0.8);
         border-radius: 6px;
         padding: 4px 12px;
-        border: 1px solid rgba(100, 180, 255, 0.5);
+        border: 1px solid rgba(220, 220, 220, 0.9);
         display: inline-block;
       }
       .hope-breadcrumb__link {
-        color: #205080;
+        color: #444;
         transition: color 0.2s;
         padding: 0 4px;
         font-weight: bold;
         background: transparent;
       }
       .hope-breadcrumb__link[aria-current="page"] {
-        color: #1276c2;
+        color: #222;
       }
-            /* header stack 半透明浅蓝色，但不影响svg */
+      /* header stack 半透明淡灰色，但不影响svg */
       .hope-stack.header-bar,
       .hope-stack.header-bar *:not(svg):not(path):not(circle):not(rect):not(line):not(ellipse):not(polygon):not(polyline):not(g) {
-        background: rgba(100, 180, 255, 0.3) !important;
+        background: rgba(240, 240, 240, 0.8) !important;
         border-radius: 8px;
-        border: 1px solid rgba(100, 180, 255, 0.5);
+        border: 1px solid rgba(220, 220, 220, 0.9);
       }
       .hope-stack.header-bar {
         padding: 6px 16px;
@@ -100,9 +100,9 @@ button:hover, button:focus {
         max-width: 100%;
       }
       .obj-box {
-        background: rgba(100, 180, 255, 0.3) !important;
+        background: rgba(240, 240, 240, 0.8) !important;
         border-radius: 10px;
-        border: 1px solid rgba(100, 180, 255, 0.5);
+        border: 1px solid rgba(220, 220, 220, 0.9);
         padding: 12px 0;
       }
       /* 不修改图片、svg和文字本身 */
