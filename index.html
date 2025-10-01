@@ -94,12 +94,13 @@
         width: fit-content;
         max-width: 100%;
       }
-      .obj-box {
-        background: rgba(240, 240, 240, 0.5) !important; /* 透明度更高 */
-        border-radius: 10px;
-        border: 1px solid rgba(220, 220, 220, 0.7);
-        padding: 12px 0;
-      }
+.obj-box {
+  background: rgba(240, 240, 240, 0.5) !important; /* 透明度更高 */
+  backdrop-filter: blur(10px); /* 添加磨砂效果 */
+  border-radius: 10px;
+  border: 1px solid rgba(220, 220, 220, 0.7);
+  padding: 12px 0;
+}
       /* 不修改图片、svg和文字本身 */
       .obj-box img,
       .obj-box svg,
